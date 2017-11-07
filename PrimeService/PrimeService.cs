@@ -1,8 +1,16 @@
 ﻿using System;
 
-namespace PrimeService
+namespace Prime.Services
 {
-    public class Class1
+    public class PrimeService
     {
+        public bool IsPrime(int candidate)
+        {
+            if(candidate < 2)
+            {
+                return false;
+            }
+            throw new NotImplementedException("Please, create a test first.");
+        }       
     }
 }
